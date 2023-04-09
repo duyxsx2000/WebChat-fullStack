@@ -1,0 +1,57 @@
+.register{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.register-1{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+.register-1>h1{
+    text-align: center;
+    font-size: 25px;
+    color: #e64e4e;
+}
+.register-1>.input{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+.register-1>.input>input{
+    flex-grow: 1;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(68, 121, 221);
+    outline: none;
+}
+
+.buttonRegister{
+    display: flex;
+    justify-content:end;
+    margin: 10px 25px;
+}
+.register-1>.buttonRegister>button{
+    width: 100%;
+    background-color: #e64e4e;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.buttonLogin{
+    display: flex;
+    justify-content:end;
+    margin: 10px 25px; 
+}
+.buttonLogin>button{
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    color: #ff0000;
+}

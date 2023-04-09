@@ -1,0 +1,62 @@
+.listFriend{
+    position: absolute;
+    top:100%;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    left: -100px;
+    box-shadow: 0px 0px 15px 2px rgb(71, 71, 71);
+   
+    
+    }
+.listFriend>ul>li{
+    margin: 20px 0px;
+    border: none;
+    
+}                                                              
+.listFriend>ul>li:hover .friend-1{
+    background-color: rgb(230, 230, 230);
+}
+.listFriend>ul>li:hover .friend-1>button{
+    background-color: rgb(230, 230, 230);
+}
+
+.listFriend>ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.search>input{
+    border-radius: 10px;
+    
+    margin: 10px 0px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    font-size: 18px;
+}
+
+.listFriend>ul{
+    list-style: none;
+}
+
+.friend-1{
+   
+    background-color:none;
+    margin: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.friend-1>button{
+    margin: 0px 0px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #4662c0;
+    font-size: 18px;
+    min-width: 20%;
+}
